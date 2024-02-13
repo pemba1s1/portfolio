@@ -1,0 +1,124 @@
+{
+  "main": {
+    "name":"Pemba Norsang Sherpa",
+    "description":"I am a full stack engineer and I use react, vue.js, node.js and golang to develop pages.",
+    "image":"profilepic.jpg",
+    "bio":"I am a motivated and experienced professional with a Bachelor's degree in Computer Science and Information Technology from Tribhuvan University, completed in 2021. With two years of hands-on experience as a full stack developer, I have honed my skills in both front-end and back-end technologies, allowing me to contribute effectively to diverse projects. Currently, I am pursuing further specialization in mobile development in Canada, where I am open to exploring new opportunities and leveraging my expertise to contribute meaningfully to innovative projects. As a dedicated learner and adaptable team player, I am eager to apply my knowledge and skills to tackle new challenges and contribute to the growth of any organization.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "norsangpemba@gmail.com",
+    "github":"https://github.com/pemba1s1",
+    "linkedin":"https://www.linkedin.com/in/pemba-norsang-sherpa-327946188/",
+    "resumedownload":"https://drive.google.com/file/d/1F3I5apO4a1yY9-cTY8jZsEKJAjA3Ol5q/view?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Conestoga College",
+        "degree":"Mobile Solutions Development",
+        "graduated":"Jan 2024 - Present",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Tribhuvan University",
+        "degree":"Bachelor's Of Science in Computer Scient and Information Technology",
+        "graduated":"Nov 2017 - Dec 2021",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Forty Two Tech",
+        "title":"Junior Full Stack Developer",
+        "years":"Aug 2022 - Dec 2023",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"VueJs",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"85%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      },
+      {
+        "name":"Node.Js",
+        "level":"60%"
+      },
+      {
+        "name":"Golang",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"50%"
+      },
+      {
+        "name":"MySql",
+        "level":"60%"
+      },
+      {
+        "name":"PostgreSql",
+        "level":"55%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Vanthena NFT",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://vanthena-dapp-7kn4l4lt3-dt6120.vercel.app/login"
+      },
+      {
+        "title":"Blog Man",
+        "category":"A blog application built using MERN stack with features like Log In, User registration, User profile edit, User profile , Blog with CRUD functionalities.",
+        "image":"02.png",
+        "url":"https://blog-man-ten.vercel.app/"
+      },
+      {
+        "title":"Real Estate Smart Code",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"https://github.com/pemba1s1/real-estate-blockchain"
+      },
+      {
+        "title":"Sample Landing Page",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      }      
+    ]
+  }
+}
