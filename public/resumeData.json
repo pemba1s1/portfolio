@@ -4,7 +4,7 @@
     "description":"I am a full stack engineer and I use react, vue.js, node.js and golang to develop pages.",
     "image":"profilepic.jpg",
     "bio":"I am a motivated and experienced professional with a Bachelor's degree in Computer Science and Information Technology from Tribhuvan University, completed in 2021. With two years of hands-on experience as a full stack developer, I have honed my skills in both front-end and back-end technologies, allowing me to contribute effectively to diverse projects. Currently, I am pursuing further specialization in mobile development in Canada, where I am open to exploring new opportunities and leveraging my expertise to contribute meaningfully to innovative projects. As a dedicated learner and adaptable team player, I am eager to apply my knowledge and skills to tackle new challenges and contribute to the growth of any organization.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Hello. Drop a message if you would like to connect.",
     "email": "norsangpemba@gmail.com",
     "github":"https://github.com/pemba1s1",
     "linkedin":"https://www.linkedin.com/in/pemba-norsang-sherpa-327946188/",
@@ -117,7 +117,7 @@
         "title":"Sample Landing Page",
         "category":"A React based resume website template",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://landing-page-lake-phi.vercel.app/"
       }      
     ]
   }
