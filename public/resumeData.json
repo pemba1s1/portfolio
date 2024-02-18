@@ -23,19 +23,16 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Conestoga College",
         "degree":"Mobile Solutions Development",
-        "graduated":"Jan 2024 - Present",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"Jan 2024 - Present"
       },
       {
         "school":"Tribhuvan University",
         "degree":"Bachelor's Of Science in Computer Scient and Information Technology",
-        "graduated":"Nov 2017 - Dec 2021",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"Nov 2017 - Dec 2021"
       }
     ],
     "work":[
@@ -43,7 +40,14 @@
         "company":"Forty Two Tech",
         "title":"Junior Full Stack Developer",
         "years":"Aug 2022 - Dec 2023",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Worked for Canadian Organization Keela.co through Forty Two Tech.",
+        "responsibilites": [
+          "Collaborated with team to introduce new features and enhancement.",
+          "Working with customer care team to resolve customers technical issues.",
+          "Fixing various bugs to enhance user's experience.",
+          "Investigating and researching various technical issues.",
+          "Aggregating the data in MongoDB to facilitate smoother decision making."
+        ]
       }
     ],
     "skills":[
