@@ -625,6 +625,52 @@ input[type="checkbox"] { display: inline; }
     margin: 0 auto;
 }
 
+.portfolio {
+   padding: 10px;
+}
+
+.project-desc {
+   color: black;
+   padding: 20px;
+}
+
+.itemtech{
+   grid-column: 1/-1;
+   min-height:50px;
+   width: 100%;
+ }
+.itemtech .tech{
+   margin-right: 10px;
+   position: relative;
+   top: 10px;
+   border: none;
+   background-color: black;
+   outline: none;
+   display: inline;
+   border-radius: 9999px;
+   padding: 4px 15px 4px 15px;
+   font-size: 13px;
+   color: white;
+ }
+
+.project-item {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 30px;
+}
+
+.image-project{
+   height: 300px;
+   width: 100%;
+   object-fit: contain;
+}
+
+.flex {
+   display: flex;
+   gap: 15px;
+   margin-top: 10px;
+}
+
 /* removed gutters */
 .row.collapsed > .column,
 .row.collapsed > .columns,

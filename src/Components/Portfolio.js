@@ -10,10 +10,22 @@ class Portfolio extends Component {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
+        <div key={id++} className="six portfolio-item portfolio">
           <div className="item-wrap">
-            <img alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}><a href={projects.url} style={{ textDecoration: "none", color: 'black' }} target="_blank" rel="noreferrer">{projects.title}</a></div>
+            <img alt={projects.title} src={projectImage} className="image-project"/>
+            <div className="project-desc">
+              <div className="project-title"><b>{projects.title}</b></div>
+              <div className="project-description">{projects.description}</div>
+              <div className="itemtech">
+                {projects.techStack.map((tech) => {
+                  return <p className="tech" key={id++}>{tech}</p>;
+                })}
+              </div>
+              <div className="flex">
+                {projects.url && <a href={projects.url} target="_blank" rel="noreferrer"><i className="fa fa-link" style={{fontSize: "25px", color: "black"}}></i></a> }
+                {projects.gitUrl && <a href={projects.gitUrl} target="_blank" rel="noreferrer"><i className="fa fa-github" style={{fontSize: "25px", color: "black"}}></i></a> }
+              </div>
+            </div>
           </div>
         </div>
       );
@@ -24,11 +36,10 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
-
+              <center><h2>Check Out Some of My Works.</h2></center>
               <div
                 id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
+                className="bgrid-quarters s-bgrid-thirds cf project-item"
               >
                 {projects}
               </div>

@@ -7,7 +7,7 @@
     "contactmessage":"Hello. Drop a message if you would like to connect.",
     "email": "norsangpemba@gmail.com",
     "github":"https://github.com/pemba1s1",
-    "linkedin":"https://www.linkedin.com/in/pemba-norsang-sherpa-327946188/",
+    "linkedin":"https://www.linkedin.com/in/pemba1s1/",
     "resumedownload":"https://drive.google.com/file/d/1F3I5apO4a1yY9-cTY8jZsEKJAjA3Ol5q/view?usp=sharing",
     "social":[
       {
@@ -42,11 +42,11 @@
         "years":"Aug 2022 - Dec 2023",
         "description":"Worked for Canadian Organization Keela.co through Forty Two Tech.",
         "responsibilites": [
+          "Improved response time for P2P transactions by 65% by improving data aggregation pipeline.",
           "Collaborated with team to introduce new features and enhancement.",
-          "Working with customer care team to resolve customers technical issues.",
-          "Fixing various bugs to enhance user's experience.",
-          "Investigating and researching various technical issues.",
-          "Aggregating the data in MongoDB to facilitate smoother decision making."
+          "Investigating, researching, and fixing various bugs to enhance user’s experience.",
+          "Aggregating the data in MongoDB to facilitate smoother decision making.",
+          "Worked with various third-party APIs like SendGrid, PayPal, Stripe, QuickBooks, Zapier."
         ]
       }
     ],
@@ -72,8 +72,8 @@
         "level":"50%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"C#",
+        "level":"50%"
       },
       {
         "name":"Node.Js",
@@ -101,28 +101,55 @@
     "projects": [
       {
         "title":"Vanthena NFT",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://vanthena-dapp-7kn4l4lt3-dt6120.vercel.app/login"
+        "description":"Freelance project for a decentralized application for creating, buying, and selling NFTs. Users can create their own NFTs, buy and sell them, and view their NFT collection.",
+        "image":"01.png",
+        "url":"https://vanthena-dapp-7kn4l4lt3-dt6120.vercel.app/login",
+        "techStack": ["Next.js", "Solidity", "Node.js", "Web3.js"]
       },
       {
         "title":"Blog Man",
-        "category":"A blog application built using MERN stack with features like Log In, User registration, User profile edit, User profile , Blog with CRUD functionalities.",
+        "description":"A blog application built using MERN stack with features like Log In, User registration, User profile edit, User profile , Blog with CRUD functionalities.",
         "image":"02.png",
-        "url":"https://blog-man-ten.vercel.app/"
+        "url":"https://blog-man-ten.vercel.app/",
+        "gitUrl": "https://github.com/pemba1s1/blog-man",
+        "techStack": ["React.js", "Node.js", "Express.js", "MongoDB"]
+      },
+      {
+        "title": "Joke Bible",
+        "description":"Frontend for joke site where jokes are fetched from https://api.chucknorris.io/.",
+        "image":"05.png",
+        "url":"https://joke-bible.vercel.app/",
+        "gitUrl": "https://github.com/pemba1s1/joke-bible",
+        "techStack": ["React.js", "Scss"]
+      },
+      {
+        "title": "ResRev",
+        "description":"A full stack restaurant review application built using Asp .Net MVC with CRUD functionalities.",
+        "image":"06.png",
+        "gitUrl":"https://github.com/pemba1s1/RR",
+        "techStack": ["C#", "Asp .Net MVC", "SQLite"]
+      },
+      {
+        "title": "Todo IOS App",
+        "description": "Todo mobile app to keep track of things and remove them once it has been completed.",
+        "image":"07.png",
+        "gitUrl":"https://github.com/pemba1s1/todo-app-swift",
+        "techStack": ["Swift", "Xcode"]
+      },
+      {
+        "title": "Location, News and Weather IOS App",
+        "description":"Mobile app to get the current location and direction between two locations, get the weather based on location, get the news based on keyword. Store all these interactions in the database using core data.",
+        "image":"08.png",
+        "gitUrl":"https://github.com/pemba1s1/swift-final",
+        "techStack": ["Swift", "Xcode","Core Data", "MapKit"]
       },
       {
         "title":"Real Estate Smart Code",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "description":"Smart contract for creating Real Estate Tokens, Staking Real Estate Tokens, and transferring Real Estate Tokens.",
         "image":"03.jpg",
-        "url":"https://github.com/pemba1s1/real-estate-blockchain"
-      },
-      {
-        "title":"Sample Landing Page",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"https://landing-page-lake-phi.vercel.app/"
-      }      
+        "gitUrl":"https://github.com/pemba1s1/real-estate-blockchain",
+        "techStack": ["Solidity"]
+      }
     ]
   }
 }
