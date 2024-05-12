@@ -40,13 +40,30 @@
         "company":"Forty Two Tech",
         "title":"Junior Full Stack Developer",
         "years":"Aug 2022 - Dec 2023",
-        "description":"Worked for Canadian Organization Keela.co through Forty Two Tech.",
         "responsibilites": [
-          "Improved response time for P2P transactions by 65% by improving data aggregation pipeline.",
-          "Collaborated with team to introduce new features and enhancement.",
-          "Investigating, researching, and fixing various bugs to enhance user’s experience.",
-          "Aggregating the data in MongoDB to facilitate smoother decision making.",
-          "Worked with various third-party APIs like SendGrid, PayPal, Stripe, QuickBooks, Zapier."
+          "Contributed to the maintenance and enhancement of core applications for Keela, a Canadian non-profit CRM, while working at Forty Two Tech.",
+          "Enhanced P2P transaction response time by 65% through optimization of the data aggregation pipeline.",
+          "Conducted comprehensive unit tests utilizing Vitest and collaborated with the team to implement new features.",
+          "Investigated and resolved bugs, significantly improving user experience.",
+          "Streamlined data aggregation in the database to provide actionable insights for smoother decision-making processes.",
+          "Utilized third-party APIs like SendGrid, PayPal, and Stripe for various functionalities."
+        ]
+      },
+      {
+        "company":"QuickFox Consulting",
+        "title":"Associate Software Engineer",
+        "years":"Mar 2022 - July 2023",
+        "responsibilites": [
+          "Engineered a desktop application enabling server connectivity via Socket, facilitating seamless download, execution of an automation bot and uploading the result.",
+          "Developed a robust smart contract for Real Estate Tokenization, encompassing creation, staking, and transfer functionalities."
+        ]
+      },
+      {
+        "company":"QuickFox Consulting",
+        "title":"Software Engineer Intern",
+        "years":"Dec 2021 - Mar 2022",
+        "responsibilites": [
+          "Played a key role in enhancing the QuickRPA web application, contributing to its overall functionality and user experience."
         ]
       }
     ],
